@@ -23,7 +23,7 @@ from keras.layers import Conv2D, MaxPooling2D
 os.environ["KERAS_BACKEND"] = "tensorflow" 
 
 # Image files directory
-DATADIR = "C:\\Users\\ellys\\OneDrive\\Soso\\Schule\\Bionik\\Seminararbeit\\knn\\PetImages"
+DATADIR = "/Dateipfad eingeben/"
 
 # Categories images
 CATEGORIES = ['Cat', 'Dog']
