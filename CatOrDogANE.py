@@ -27,7 +27,7 @@ if len(physical_devices) > 0:
     tf.config.experimental.set_visible_devices(physical_devices[0], 'GPU')
 
 # Image files directory
-DATADIR = "/Users/username/OneDrive/Soso/Schule/Bionik/Seminararbeit/knn/PetImages"
+DATADIR = "/Dateipfad eingeben/"
 
 # Categories images
 CATEGORIES = ['Cat', 'Dog']
